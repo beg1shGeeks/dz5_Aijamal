@@ -1,0 +1,67 @@
+.container {
+  width: 90%;
+  min-height: 100vh;
+  height: 100%;
+  /* border: 1px solid silver; */
+  margin: 0px auto 40px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 20px;
+
+  padding: 40px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px;
+  /* background: linear-gradient(337deg, #cb68bd, #a4b4c2, #9dbeb5); */
+  padding: 120px 0px;
+}
+.bsketContainer {
+  width: 420px;
+  height: max-content;
+  border: 1px solid black;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background: #6de6e4;
+}
+.bsketContainer img {
+  width: 184px;
+  height: 181px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.basketTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+.basketTitle span {
+  margin-bottom: 10px;
+}
+.bsketContainer span {
+  /* margin-top: 10px; */
+  color: #0d8d37;
+}
+.bsketBtnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bsketBtnContainer span {
+  margin: 0px 15px;
+  color: black;
+  font-size: 25px;
+}
+.bsketBtnContainer button {
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+.bsketBtnContainer button:active {
+  background: #ffffffb9;
+}
